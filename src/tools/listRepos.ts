@@ -7,7 +7,8 @@ const octokit= new Octokit({
 
 
 export async function listRepos(input:{username:string}){
-    console.error("usename",input.username)
+    console.log("Tool invoked with username:", input.username);
+
     // return {
     //   debug: `🔥 Tool triggered with username: ${input.username}`,
     // };
