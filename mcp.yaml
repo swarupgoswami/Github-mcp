@@ -1,0 +1,7 @@
+tools:
+  - name: listRepo
+    description: List all public GitHub repositories of a specific user.
+    parameters:
+      username:
+        type: string
+        description: GitHub username whose repositories you want to list.
