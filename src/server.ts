@@ -105,10 +105,13 @@ server.tool("getIssues","get the open issues from a github repository",
   }
 )
 
+
+
+
 server.tool("listRepo",
   "list all the repo of a github user",
   {
-    username:z.string().describe("github username to list repositories for")
+    username:z.string().describe(" username to list github repositories ")
   },
   {
     title:"list repositories",
